@@ -31,34 +31,49 @@
 
 // ====================================== ^^ classificador de idade ^^ ===========================================
 
-let dia = "Mon"
-let diaTraduzido = ""
+// let dia = "Mon"
+// let diaTraduzido = ""
 
-switch(dia) {
-    case "Mon":
-        diaTraduzido = "Segunda"
-        break
-    case "Tue":
-        diaTraduzido = "Terça"
-        break
-    case "Wed":
-        diaTraduzido = "Quarta"
-        break
-    case "Thu":
-        diaTraduzido = "Quinta"
-        break
-    case "Fri":
-        diaTraduzido = "Sexta"
-        break
-    case "Sat":
-        diaTraduzido = "Sábado"
-        break
-    case "Sun":
-        diaTraduzido = "Domingo"
-        break
-}
+// switch(dia) {
+//     case "Mon":
+//         diaTraduzido = "Segunda"
+//         break
+//     case "Tue":
+//         diaTraduzido = "Terça"
+//         break
+//     case "Wed":
+//         diaTraduzido = "Quarta"
+//         break
+//     case "Thu":
+//         diaTraduzido = "Quinta"
+//         break
+//     case "Fri":
+//         diaTraduzido = "Sexta"
+//         break
+//     case "Sat":
+//         diaTraduzido = "Sábado"
+//         break
+//     case "Sun":
+//         diaTraduzido = "Domingo"
+//         break
+// }
 
-console.log(dia)
-console.log(diaTraduzido)
+// console.log(dia)
+// console.log(diaTraduzido)
 
 // ======================================= ^^ Switch ^^ ============================================================
+
+let status = ""
+let tri1 = 10
+let tri2 = 10
+let tri3 = 10
+let nota = tri1 + tri2 + tri3
+let media = nota / 3
+
+if (6 <= media) {
+    console.log("aprovado")
+} else {
+    console.log("reprovado")
+}
+
+// ====================================== ^^ Nota/Média ^^ ============================================================
